@@ -1,4 +1,38 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+header {
   height: 100vh;
-  background: url(../img/4249454.jpg) center/cover;
+  background: url(https://tr.rbxcdn.com/8ba3591b5222f9733d1aa11c69913ad7/512/512/Image/Png)
+    center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  margin: 20px;
+  color: red;
+  font-size: 1.8rem;
+}
+header p {
+  background: rgba(0, 0, 0, 0.8);
+}
+.inventaire {
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.card {
+  width: 50vw;
+  height: auto;
+}
+img {
+  width: 100%;
+  height: 100%;
 }
